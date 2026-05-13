@@ -1,6 +1,8 @@
 {
-  "name": "",
-  "description": "",
+  "name": "ChatGPT Chat Extractor",
+  "description": "Extract and save your ChatGPT share conversations to PDF or other formats using a Chrome extension bridge.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
