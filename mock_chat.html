@@ -1,0 +1,7 @@
+<!DOCTYPE html><html><head><title>My Chat Title</title></head><body>
+<script>
+window.__reactRouter = { streamController: { enqueue: function(d) { console.log(d) } } };
+window.__reactRouter.streamController.enqueue(new TextEncoder().encode('{"1":2,"2":"foo"}'));
+window.__reactRouter.streamController.enqueue(new TextEncoder().encode('{"3":{"title":"Extracted Fake Chat","currentNode":"node_a","mapping":{"node_a":{"id":"node_a","message":{"author":{"role":"assistant"},"content":{"parts":["Hello World!"]}}}}}}'));
+</script>
+</body></html>

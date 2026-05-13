@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: chatgpt-chat-extractor
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
